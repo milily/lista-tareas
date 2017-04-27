@@ -67,7 +67,12 @@ arreglo.forEach(function(element){
   document.write( "<li>" + "<b>" + element.title + "</li>" )
 });
 
-  
- 
+
+function obtenerTarea(){
+	var input = document.getElementById("nuevaTarea");
+	var salidaEmail = document.getElementsByClassName("to-do-list");
+	salidaEmail[0].innerHTML += "<li>" + "<b>" + input.value + "</li>";
+	input.value = "";
+}
 
 
