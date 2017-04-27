@@ -64,8 +64,7 @@ var arreglo = [
 
 arreglo.forEach(function(element){ 
 
-  document.write("<div><b> Usuario " + element.id + "<br>" + "<b> Tarea: </b>" + element.title + "<br>"+
-                  "<b> Terminado: </b>" + element.completed + "<br>")
+  document.write("<li>" + "<b>" +  element.title + "</li>")
 });
 
   
