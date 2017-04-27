@@ -64,7 +64,7 @@ var arreglo = [
 
 arreglo.forEach(function(element){ 
 
-  document.write("<li>" + "<b>" +  element.title + "</li>")
+  document.write( "<li>" + "<b>" + element.title + "</li>" )
 });
 
   
