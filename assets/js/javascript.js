@@ -64,12 +64,7 @@ var arreglo = [
 
 arreglo.forEach(function(element){ 
 
-<<<<<<< HEAD
   document.write("<li>" + "<b>" +  element.title + "</li>")
-=======
-  document.write("<div><b> Usuario " + element.id + "<br>" + "<b> Tarea: </b>" + element.title + "<br>"+
-                  "<b> Terminado: </b>" + element.completed + "<br>")
->>>>>>> cb3e060177fd72920ca2435479569d451a547557
 });
 
   
