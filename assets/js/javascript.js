@@ -71,7 +71,7 @@ arreglo.forEach(function(element){
 function obtenerTarea(){
 	var input = document.getElementById("nuevaTarea");
 	var salidaEmail = document.getElementsByClassName("to-do-list");
-	salidaEmail[0].innerHTML += "<li>" + "<b>" + input.value + "</li>";
+	salidaEmail[0].innerHTML += "<ul>"+ "<li>" + "<b>" + input.value + "</li>" + "</ul>";
 	input.value = "";
 }
 
